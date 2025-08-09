@@ -1,0 +1,19 @@
+[project]
+name = "yaaai"
+dynamic = ["version"]
+description = "Yet Another Agentic AI Framework"
+authors = [
+    {name = "Ilya Maleki",email = "iliyamalecki@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+]
+
+[build-system]
+requires = ["hatchling", "uv-dynamic-versioning"]
+build-backend = "hatchling.build"
+
+
+[tool.hatch.version]
+source = "uv-dynamic-versioning"
